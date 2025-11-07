@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff8fb;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ff66a3;
+    color: white;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ffeb3b;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b;
+} 
+
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero h1 span {
+    color: #ffeb3b;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: #ffeb3b;
+    color: #ff4081;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #fff176;
+}
+
+/* Menu Section */
+.menu {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.menu h2 {
+    color: #ff4081;
+    margin-bottom: 30px;
+}
+
+.menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu {
+    background: #fff;
+    border-radius: 10px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 30px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.menu:hover {
+    transform: scale(1.05);
+}
+
+.menu img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu h3 {
+    margin: 10px 0 5px;
+    color: #ff4081;
+}
+
+.menu span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* About and Contact */
+.about,
+.contact {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.about h2,
+.contact h2{
+    color: #ff4081;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background: #ff66a3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
